@@ -1,4 +1,4 @@
-# Paperlike Control Utility
+# Dasung Paperlike Control Utility
 
 A command-line tool to control Paperlike e-ink monitors via USB serial interface.
 
