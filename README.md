@@ -51,6 +51,6 @@ paperlike /dev/paperlike -m 2  # Set mode to 2
 
 ## Utils
 
-A helper script paperlike-utils.sh included - it provides utilities to set the monitor
+A helper script `paperlike-utils.sh` included - it provides utilities to set the monitor
 orientation, touch area and shortcuts for setting visual appearance using paperlike cli.
 A snippet in the header is provided for i3wm to conveniently control your monitor.
