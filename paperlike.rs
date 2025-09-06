@@ -261,15 +261,15 @@ fn print_help() {
     println!("   -<command> <opt val>:");
     println!("     -i      device information");
     println!("     -r      refresh screen");
-    println!("     -c  3   contrast, options 1-9");
-    println!("     -m  1   mode, options 1-4");
+    println!("     -c  3   contrast (1-9)");
+    println!("     -m  1   mode  (1-4)");
     println!("     -t  4   temperature (1-10)");
     println!("     -f  3   frontlight level (0-100)");
 }
 
 fn main() {
     let args: Vec<String> = env::args().collect();
-    // If no arguments provided, run device detection only
+    // if no arguments provided, run device detection only
     if args.len() == 1 {
         port_detection();
         return;
