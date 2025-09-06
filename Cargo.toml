@@ -1,0 +1,11 @@
+[package]
+name = "paperlike-rs"
+version = "1.0.0"
+edition = "2024"
+
+[[bin]]
+name = "paperlike"
+path = "paperlike.rs"
+
+[dependencies]
+serialport = "4.7"
