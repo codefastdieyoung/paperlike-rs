@@ -2,8 +2,7 @@
 
 A command-line tool to control Paperlike e-ink monitors via USB serial interface.
 
-[!NOTE]
-Works and has been tested with Dasung Paperlike 13K (color) 37hz version of the monitor. Other monitor models has not been tested but it is expected that some of the commands should also work with 253 monitor and other monitors from revolutionary series. If you have different Dasung monitor model - use at your own risk.
+**Note:** Works and has been tested with Dasung Paperlike 13K (color) 37hz version of the monitor. Other monitor models has not been tested but it is expected that some of the commands should also work with 253 monitor and other monitors from revolutionary series. If you have different Dasung monitor model - use at your own risk.
 
 ## Install
 
