@@ -25,7 +25,7 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
 
-# Usage
+## Usage
 
 If udev rules have been created you can use /dev/paperlike path without sudo (e.g. in scripts or keyboard bindings in your desktop environment). Otherwise, use sudo with the correct device path like /dev/ttyUSB0.
 
@@ -39,7 +39,7 @@ paperlike /dev/paperlike -i
 # Without udev rule
 sudo paperlike /dev/ttyUSB0 -i
 
-# Summary:
+### Summary:
 paperlike /dev/paperlike -h    # Help
 paperlike /dev/paperlike -i    # Get current parameters
 paperlike /dev/paperlike -r    # Refresh screen
@@ -49,7 +49,7 @@ paperlike /dev/paperlike -f 5  # Set frontlight to 5
 paperlike /dev/paperlike -m 2  # Set mode to 2
 ```
 
-# Utils
+## Utils
 
 A helper script paperlike-utils.sh included - it provides utilities to set the monitor
 orientation, touch area and shortcuts for setting visual appearance using paperlike cli.
